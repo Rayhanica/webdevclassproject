@@ -8,12 +8,28 @@
     <title>Just Cause 4</title>
     <link href="styles.css" rel="stylesheet">
     <style>
+        /* General Styles */
         body {
             font-weight: bold;
-            text-align: center;
             background-color: lightgrey;
             margin: 0;
             padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            text-align: center;
+        }
+
+        /* Centering the header content */
+        header {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
         }
 
         nav h4 {
@@ -21,21 +37,24 @@
             margin: 0 15px;
         }
 
+        /* Ensuring the image scales properly and is centered */
         .banner-image {
             width: 100%;
+            max-width: 1200px; /* Ensures image doesn't get too large on big screens */
             height: auto;
         }
 
-        header {
-            margin-bottom: 20px;
-        }
-
-        .container, #gamedetails, #gamemodes {
+        /* Content sections */
+        section.container, section#gamedetails, section#gamemodes {
             margin: 20px auto;
             width: 80%;
+            max-width: 800px;
         }
 
+        /* Footer */
         footer {
+            width: 80%;
+            max-width: 800px;
             margin-top: 30px;
         }
     </style>
@@ -89,7 +108,7 @@
     <!-- Footer -->
     <footer>
         <p>Just Cause 4 is my favorite game overall due to the high speed mobility of the character, which makes the game super demanding at the moment of having adventurous moments.
-        You have the freedom of flying through the inmense map, as you also can drive all types of vehivles that you can possibly imagine. The game has also a huge variety of guns,
+        You have the freedom of flying through the immense map, as you also can drive all types of vehicles that you can possibly imagine. The game has also a huge variety of guns,
         missions and also is packed with different side quests that make the game not look repetitive nor boring at no point.</p>
         <p>For more information, visit the official website: <a href="https://justcause.com/just-cause-4">Just Cause 4</a></p>
     </footer>
